@@ -1,0 +1,42 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.tittle{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 25px;
+}
+.content h3{
+    font-size: 22px;
+}
+.content{
+    padding-top: 30px;
+    text-align: center;
+}
+form input{
+   margin: 10px 0;
+   font-size: 22px;
+   padding: 10px;
+   width: 15rem;
+}
+form button{
+    font-size: 1rem;
+    padding: 10px;
+    background-color: aqua;
+    border: 1px solid gray;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.start-game:disabled{
+    font-size: 1rem;
+    padding: 10px;
+    background-color: aqua;
+    border: 1px solid gray;
+    border-radius: 4px;
+    cursor: not-allowed;
+}
+.result-div{
+    text-align: center;
+    font-size: 22px;
+}
